@@ -1,0 +1,11 @@
+version: '2'
+services:
+  postgres_test:
+    image: postgres:13.2
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: test
+      POSTGRES_USER: test
+      POSTGRES_DB: doobie-skeleton
+    ports:
+      - "5444:5432"
