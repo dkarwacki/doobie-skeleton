@@ -14,10 +14,6 @@ lazy val catsDependencies = Seq(
   "org.typelevel" %% "cats-effect-laws" % catsVersion % "test"
 )
 
-lazy val catsEffectDependencies = Seq(
-  "org.typelevel" %% "cats-effect-laws" % "2.3.1" % Test
-)
-
 lazy val doobieDependencies = Seq(
   "org.tpolecat" %% "doobie-core" % doobieVersion,
   "org.tpolecat" %% "doobie-hikari" % doobieVersion,
